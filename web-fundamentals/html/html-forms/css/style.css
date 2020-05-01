@@ -1,0 +1,16 @@
+#warning {
+  color: blue;
+}
+.red{
+  color: red;
+}
+label {
+  display: block;
+  color: darkolivegreen;
+}
+.super-big {
+  background-color: royalblue;
+}
+#herpaderp {
+  background-color: green;
+}

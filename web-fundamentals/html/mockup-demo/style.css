@@ -1,0 +1,109 @@
+* {
+  font-family: Arial;
+}
+body {
+  background-color: black;
+}
+p {
+  font-size: 12pt;
+  line-height: 1.5em;
+}
+h1, h2, h3, h4{
+  font-family: 'Times New Roman', Times, serif
+}
+#wrapper {
+  margin: 0 auto;
+  background-color: white;
+  width: 1200px;
+}
+#header {
+  width: 100%;
+}
+.navigation {
+  height: 120px;
+}
+
+.navigation h1,
+.navigation ul{
+  display: inline-block;
+}
+.navigation h1{
+  width: 300px;
+  margin-right: 170px;
+}
+.navigation ul {
+  width: 680px;
+}
+
+.navigation li {
+  font-size: 12pt;
+  margin-right: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.navigation li:last-of-type {
+  margin-right: 0;
+}
+
+.hero {
+  background: url('static/android_stock.jpg');
+  width: 100%;
+  height: 500px;
+  padding-top: 200px;
+  margin-bottom: 50px;
+}
+
+.hero div {
+  width: 400px;
+  margin: auto;
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+.hero button {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+
+form {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background-color: lightgray;
+  margin-bottom: 50px;
+}
+form input {
+  width: 400px;
+  padding: 10px;
+  margin-right: 20px;
+}
+button {
+  height: 36px;
+  background-color: wheat;
+  font-size: 14pt;
+  text-transform: uppercase;
+  padding: 7px;
+}
+#main-content {
+  padding: 20px;
+}
+.column {
+  vertical-align: top;
+  width: 550px;
+  display: inline-block;
+}
+.column h3 {
+  margin-top: 0;
+}
+.column img {
+  height: 412px;
+  width: 100%;
+}
+.column:first-of-type{
+  margin-right: 50px;
+}
+.column p:first-of-type {
+  color: gray
+}
